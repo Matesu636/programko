@@ -1,0 +1,14 @@
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.AssemblyInfoInputs.cache
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.AssemblyInfo.cs
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.csproj.CoreCompileInputs.cache
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\bin\Debug\net6.0\kvadraticka rovnice ukol.exe
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\bin\Debug\net6.0\kvadraticka rovnice ukol.deps.json
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\bin\Debug\net6.0\kvadraticka rovnice ukol.runtimeconfig.json
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\bin\Debug\net6.0\kvadraticka rovnice ukol.dll
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\bin\Debug\net6.0\kvadraticka rovnice ukol.pdb
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.dll
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\refint\kvadraticka rovnice ukol.dll
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.pdb
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\kvadraticka rovnice ukol.genruntimeconfig.cache
+C:\Users\matej.hodac\source\repos\kvadraticka rovnice ukol\kvadraticka rovnice ukol\obj\Debug\net6.0\ref\kvadraticka rovnice ukol.dll
