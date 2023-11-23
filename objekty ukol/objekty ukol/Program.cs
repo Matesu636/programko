@@ -1,0 +1,1 @@
+﻿string[] tvary = new string[] { "square", "rectangle", "sphere", "triangle", " pentagon", "sextagon", "cube", "block", "globe"};
