@@ -8,7 +8,7 @@ namespace Kalkulackabuilder
 {
     internal class AdditionExpression : BinaryExpression
     {
-        public AdditionExpression(IExpression left, IExpression right, string operatorSymbol) : base(left, right, operatorSymbol)
+        public AdditionExpression(IExpression left, IExpression right) : base(left, right)
         {
         }
 
@@ -17,5 +17,9 @@ namespace Kalkulackabuilder
             return left.Evaluate() + right.Evaluate();
         }
 
+        public override string GetString()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -24,7 +24,7 @@ namespace Kalkulackabuilder
 
         public ExpressionBuilder Add(IExpression exp)
         {
-            var newResult = new AdditionExpression(expression, exp,"+");
+            var newResult = new AdditionExpression(expression, exp);
             expression = newResult;
 
             return this;
@@ -38,7 +38,7 @@ namespace Kalkulackabuilder
 
         public ExpressionBuilder Subtract(IExpression exp)
         {
-            expression = new SubtractionExpression(expression, exp,"-");
+            expression = new SubtractionExpression(expression, exp);
             return this;
         }
 
@@ -50,7 +50,7 @@ namespace Kalkulackabuilder
 
         public ExpressionBuilder Multiply(IExpression exp)
         {
-            expression = new MultiplicationExpression(expression, exp,"*");
+            expression = new MultiplicationExpression(expression, exp);
             return this;
         }
 

@@ -10,30 +10,21 @@ namespace Kalkulackabuilder
     {
         protected IExpression left;
         protected IExpression right;
-        protected string operatorSymbol;
+        
 
-        public BinaryExpression(IExpression left, IExpression right, string operatorSymbol)
+        public BinaryExpression(IExpression left, IExpression right)
         {
             this.left = left;
             this.right = right;
-            this.operatorSymbol = operatorSymbol;
+            
         }
 
-        public  virtual double Evaluate()
-        {
-            return operatorSymbol switch
-            {
-                "+" => left.Evaluate() + right.Evaluate(),
-                "-" => left.Evaluate() - right.Evaluate(),
-                "*" => left.Evaluate() * right.Evaluate(),
-                "/" => left.Evaluate() / right.Evaluate(),
-            };
-        }
+        public abstract  double Evaluate();
 
 
-        public string GetString()
-        {
-            return "(" + left.GetString() + " " + operatorSymbol + " " + right.GetString() + ")"; 
-        }
+
+
+        public abstract string GetString();
+        
     }
 }

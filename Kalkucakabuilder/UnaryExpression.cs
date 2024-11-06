@@ -9,22 +9,18 @@ namespace Kalkulackabuilder
     internal abstract class UnaryExpression : IExpression
     {
         protected IExpression operand;
-        protected string operatorSymbol;
+        
 
-        public UnaryExpression(IExpression operand, string operatorSymbol)
+        public UnaryExpression(IExpression operand )
         {
             this.operand = operand;
-            this.operatorSymbol = operatorSymbol;
+            
         }
 
-        public virtual double Evaluate()
-        {
-            return operatorSymbol == "-" ? -operand.Evaluate() : operand.Evaluate();
-        }
+        public abstract double Evaluate();
 
-        public string GetString()
-        {
-            return operatorSymbol + "(" + operand.GetString() + ")"; 
-        }
+
+        public abstract string GetString();
+        
     }
 }

@@ -8,13 +8,18 @@ namespace Kalkulackabuilder
 {
     internal class MultiplicationExpression : BinaryExpression
     {
-        public MultiplicationExpression(IExpression left, IExpression right, string operatorSymbol) : base(left, right, operatorSymbol)
+        public MultiplicationExpression(IExpression left, IExpression right) : base(left, right)
         {
         }
 
         public override double Evaluate()
         {
             return left.Evaluate() * right.Evaluate();
+        }
+
+        public override string GetString()
+        {
+            throw new NotImplementedException();
         }
     }
 }

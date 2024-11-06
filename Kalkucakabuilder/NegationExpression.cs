@@ -8,7 +8,7 @@ namespace Kalkulackabuilder
 {
     internal class NegationExpression : UnaryExpression
     {
-        public NegationExpression(IExpression operand, string operatorSymbol) : base(operand,operatorSymbol)
+        public NegationExpression(IExpression operand) : base(operand)
         {
         }
 
@@ -17,5 +17,9 @@ namespace Kalkulackabuilder
             return -operand.Evaluate();
         }
 
+        public override string GetString()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
