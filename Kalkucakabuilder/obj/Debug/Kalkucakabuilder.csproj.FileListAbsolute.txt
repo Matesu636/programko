@@ -1,2 +1,0 @@
-/Users/Matej/Projects/Kalkucakabuilder/obj/Debug/Kalkucakabuilder.csproj.AssemblyReference.cache
-/Users/Matej/Projects/Kalkucakabuilder/obj/Debug/Kalkucakabuilder.csproj.CoreCompileInputs.cache
